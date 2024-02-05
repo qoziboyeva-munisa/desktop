@@ -1,0 +1,262 @@
+/* ibarra-real-nova-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ibarra-real-nova-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* ibarra-real-nova-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/ibarra-real-nova-v27-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* ibarra-real-nova-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ibarra-real-nova-v27-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* public-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/public-sans-v15-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/public-sans-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/public-sans-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+.header__container{
+    padding: 40px 0px;
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.header__list{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__item{
+     list-style: none;
+     display: flex;
+}
+.header__link{
+    text-decoration: none;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header__link:hover{
+    color: aqua;
+}
+.header__pricing{
+   position: relative;
+    background-color: #fff;
+   
+}
+.header__box{
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+}
+.header__title{
+    color: #33323D;
+    font-family: "Ibarra Real Nova",sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.446px;
+}
+.header__title__name{
+    padding-right: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Public Sans",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header__link__name{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color:  #203A4C;
+}
+/* -------------------------------hero---------------------------- */
+
+.hero__container{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero__box{
+  width: 310px;
+  border-bottom: 1px solid #33323D;
+  border-top: 1px solid #33323D;
+  padding: 50px 0px;
+}
+.hero__title{
+    color: #33323D;
+    font-family: "Ibarra Real Nova",sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.357px;
+    
+}
+.hero__text{
+    color: #33323D;
+    font-family: "Public Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 30px 0px;
+}
+.hero__btn{
+    background-color: #fff;
+    border: 1px solid #33323D ;
+    padding: 10px 20px;
+    color: #33323D;
+    font-family: "Public Sans",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.hero__btn:hover{
+  background-color: black;
+  color: #fff;
+}
+/* --------------------------------------------pricing-------------------------------- */
+.pricing__container{
+  align-items: center;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.pricing__title{
+  width: 350px;
+    color: #33323D;
+    font-family: "Ibarra Real Nova",sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.357px;
+}
+.pricing__hr{
+  width: 400px;
+}
+.pricing__btn{
+  background-color: #FFF;
+  border: 1px solid #7c7c8d;
+  padding: 10px 20px;
+  color: #33323D;
+  font-family: "Public Sans",sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.pricing__btn:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* ---------------------------footer---------------------------- */
+.footer{
+  background-color:  #33323D;;
+}
+.footer__container{
+  align-items: center;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__box{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer__item{
+   list-style: none;
+}
+.footer__link{
+  padding: 0px 10px;
+  color: #FFF;
+  font-family: "Public Sans",sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
